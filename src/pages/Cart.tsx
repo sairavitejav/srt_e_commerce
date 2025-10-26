@@ -67,7 +67,7 @@ const Cart: React.FC = () => {
           {/* Enhanced Cart Items */}
           <div className="lg:col-span-2">
             <div className="space-y-4">
-              {cartItems.map((item, index) => (
+              {cartItems.map((item) => (
                 <div key={item.id} className="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 border border-gray-100">
                   <div className="flex items-center space-x-4">
                     {/* Enhanced Product Image */}

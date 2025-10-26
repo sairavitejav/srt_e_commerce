@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import { productService } from '../services/api';
 import type { Product } from '../types';
